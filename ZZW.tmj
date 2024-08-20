@@ -838,7 +838,7 @@
                  "ellipse":true,
                  "height":138,
                  "id":22,
-                 "name":"",
+                 "name":"Inhalte",
                  "properties":[
                         {
                          "name":"allowApi",
@@ -848,10 +848,10 @@
                         {
                          "name":"url",
                          "type":"string",
-                         "value":"HI\/Column_Test_Geography.html"
+                         "value":"\/HI\/Column_Test_Geography.html"
                         }],
                  "rotation":0,
-                 "type":"",
+                 "type":"area",
                  "visible":true,
                  "width":131,
                  "x":737,
