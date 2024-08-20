@@ -833,6 +833,39 @@
                  "width":32,
                  "x":64,
                  "y":544
+                }, 
+                {
+                 "height":117,
+                 "id":20,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"allowApi",
+                         "type":"file",
+                         "value":"true"
+                        }, 
+                        {
+                         "name":"url",
+                         "type":"file",
+                         "value":"HI\/Column Test - Geography.html"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":159,
+                 "x":403,
+                 "y":888
+                }, 
+                {
+                 "height":0,
+                 "id":21,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":763,
+                 "y":1074
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -970,8 +1003,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":65,
- "nextobjectid":20,
+ "nextlayerid":67,
+ "nextobjectid":22,
  "orientation":"orthogonal",
  "properties":[
         {
