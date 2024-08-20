@@ -835,37 +835,27 @@
                  "y":544
                 }, 
                 {
-                 "height":117,
-                 "id":20,
+                 "ellipse":true,
+                 "height":138,
+                 "id":22,
                  "name":"",
                  "properties":[
                         {
                          "name":"allowApi",
-                         "type":"file",
-                         "value":"true"
+                         "type":"bool",
+                         "value":true
                         }, 
                         {
                          "name":"url",
-                         "type":"file",
-                         "value":"HI\/Column Test - Geography.html"
+                         "type":"string",
+                         "value":"HI\/Column_Test_Geography.html"
                         }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":159,
-                 "x":403,
-                 "y":888
-                }, 
-                {
-                 "height":0,
-                 "id":21,
-                 "name":"",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":0,
-                 "x":763,
-                 "y":1074
+                 "width":131,
+                 "x":737,
+                 "y":826
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1004,7 +994,7 @@
          "y":0
         }],
  "nextlayerid":67,
- "nextobjectid":22,
+ "nextobjectid":24,
  "orientation":"orthogonal",
  "properties":[
         {
