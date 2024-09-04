@@ -5,11 +5,15 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 console.log('Script started successfully');
 
 let currentPopup: any = undefined;
+let geographyWebsite: any = undefined;
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
     console.log('Scripting API ready');
     console.log('Player tags: ',WA.player.tags)
+
+    const mapUrl = WA.room.mapURL
+    const root = mapUrl.substring(0, mapUrl.lastIndexOf("/"))
 
     WA.room.area.onEnter('clock').subscribe(() => {
         const today = new Date();
@@ -19,6 +23,16 @@ WA.onInit().then(() => {
 
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
+    WA.room.area.onEnter('geographyWebsite').subscribe(async () => {
+        geographyWebsite = await WA.nav.openCoWebSite(`${root}/HI/geography.html`, true, "", 60)
+    })
+
+    WA.room.area.onLeave('geographyWebsite').subscribe(() => {
+        if (geographyWebsite !== undefined) {
+            geographyWebsite.close();
+        }
+    })
+    
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');

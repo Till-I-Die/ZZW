@@ -28,6 +28,8 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 index: "./index.html",
+                example: "./HI/example.html",
+                geography: "./HI/geography.html",
                 ...getMapsScripts(maps),
             },
         },
