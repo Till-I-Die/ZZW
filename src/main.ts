@@ -24,7 +24,7 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
     WA.room.area.onEnter('geographyWebsite').subscribe(async () => {
-        geographyWebsite = await WA.nav.openCoWebSite(`${root}/HI/geography.html`, true, "", 60)
+        geographyWebsite = await WA.nav.openCoWebSite(`${root}/HI/tool.html`, true, "", 60)
     })
 
     WA.room.area.onLeave('geographyWebsite').subscribe(() => {

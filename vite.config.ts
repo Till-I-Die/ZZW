@@ -30,6 +30,7 @@ export default defineConfig({
                 index: "./index.html",
                 example: "./HI/example.html",
                 geography: "./HI/geography.html",
+                tool: "./HI/tool.html",
                 ...getMapsScripts(maps),
             },
         },
