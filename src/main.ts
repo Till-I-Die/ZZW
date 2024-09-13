@@ -24,7 +24,7 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
     WA.room.area.onEnter('geographyWebsite').subscribe(async () => {
-        H5PInhalt = await WA.nav.openCoWebSite(`${root}/HI/geography.html`, true, "", 60)
+        H5PInhalt = await WA.nav.openCoWebSite(`${root}/HI/geography.html`, true, "", 69)
     })
 
     WA.room.area.onLeave('geographyWebsite').subscribe(() => {
@@ -34,7 +34,7 @@ WA.onInit().then(() => {
     })
     
     WA.room.area.onEnter('Inhalt').subscribe(async () => {
-        H5PInhalt = await WA.nav.openCoWebSite(`${root}/HI/tool.html`, true, "", 60)
+        H5PInhalt = await WA.nav.openCoWebSite(`${root}/HI/tool.html`, true, "", 69)
     })
 
     WA.room.area.onLeave('Inhalt').subscribe(() => {
