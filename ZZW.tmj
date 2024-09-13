@@ -808,7 +808,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"conference.tmj#from-office"
+                         "value":"conference.tmj#from-ZZW"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -861,6 +861,12 @@
                  "height":88.197,
                  "id":24,
                  "name":"geographyWebsite",
+                 "properties":[
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to open a custom website"
+                        }],
                  "rotation":0,
                  "type":"area",
                  "visible":true,
