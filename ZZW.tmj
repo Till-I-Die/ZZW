@@ -871,8 +871,25 @@
                  "type":"area",
                  "visible":true,
                  "width":65.7727,
-                 "x":139.86365,
-                 "y":694.1515
+                 "x":146.86365,
+                 "y":692.1515
+                }, 
+                {
+                 "height":88.197,
+                 "id":25,
+                 "name":"geographyWebsite2",
+                 "properties":[
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to open a custom website"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":65.7727,
+                 "x":451.86365,
+                 "y":903.1515
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1011,7 +1028,7 @@
          "y":0
         }],
  "nextlayerid":67,
- "nextobjectid":25,
+ "nextobjectid":35,
  "orientation":"orthogonal",
  "properties":[
         {
