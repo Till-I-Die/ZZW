@@ -867,6 +867,28 @@
                  "width":65.7727,
                  "x":451.86365,
                  "y":903.1515
+                }, 
+                {
+                 "height":88.197,
+                 "id":35,
+                 "name":"geographyWebsite3",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":".\/HI\/geography.html"
+                        }, 
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to open a The Book"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":65.7727,
+                 "x":142.11365,
+                 "y":857.9015
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1005,7 +1027,7 @@
          "y":0
         }],
  "nextlayerid":67,
- "nextobjectid":35,
+ "nextobjectid":36,
  "orientation":"orthogonal",
  "properties":[
         {
