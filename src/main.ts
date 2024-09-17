@@ -5,7 +5,7 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 console.log('Script started successfully');
 
 let currentPopup: any = undefined;
-let geographyWebsite: any = undefined;
+let H5P: any = undefined;
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
@@ -24,12 +24,22 @@ WA.onInit().then(() => {
     WA.room.area.onLeave('clock').subscribe(closePopup)
 
     WA.room.area.onEnter('geographyWebsite').subscribe(async () => {
-        geographyWebsite = await WA.nav.openCoWebSite(`${root}/HI/tool.html`, true, "", 60)
+        H5P = await WA.nav.openCoWebSite(`${root}/HI/tool.html`, true, "", 60)
     })
 
     WA.room.area.onLeave('geographyWebsite').subscribe(() => {
-        if (geographyWebsite !== undefined) {
-            geographyWebsite.close();
+        if (H5P !== undefined) {
+            H5P.close();
+        }
+    })
+
+    WA.room.area.onEnter('geographyWebsite2').subscribe(async () => {
+        H5P = await WA.nav.openCoWebSite(`${root}/HI/geography.html`, true, "", 60)
+    })
+
+    WA.room.area.onLeave('geographyWebsite2').subscribe(() => {
+        if (H5P !== undefined) {
+            H5P.close();
         }
     })
     

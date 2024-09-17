@@ -835,32 +835,15 @@
                  "y":544
                 }, 
                 {
-                 "ellipse":true,
-                 "height":138,
-                 "id":22,
-                 "name":"Inhalte",
-                 "properties":[
-                        {
-                         "name":"allowApi",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"url",
-                         "type":"string",
-                         "value":"\/HI\/Column_Test_Geography.html"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":131,
-                 "x":737,
-                 "y":826
-                }, 
-                {
                  "height":88.197,
                  "id":24,
                  "name":"geographyWebsite",
+                 "properties":[
+                        {
+                         "name":"openWebsiteTriggerMessage",
+                         "type":"string",
+                         "value":"Press SPACE or touch here to open a The Book"
+                        }],
                  "rotation":0,
                  "type":"area",
                  "visible":true,
@@ -876,7 +859,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Press SPACE or touch here to open a custom website"
+                         "value":"Press SPACE or touch here to open a The Book"
                         }],
                  "rotation":0,
                  "type":"area",
