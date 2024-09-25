@@ -879,6 +879,11 @@
                          "value":".\/HI\/geography.html"
                         }, 
                         {
+                         "name":"openWebsiteTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
                          "value":"Press SPACE or touch here to open a The Book"
