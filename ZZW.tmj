@@ -876,7 +876,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":".\/HI\/geography.html"
+                         "value":".\/HI\/example.html"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
